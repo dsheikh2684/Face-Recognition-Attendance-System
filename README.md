@@ -111,7 +111,3 @@ Improve UI using Tkinter or PyQt
 Developed by: Danish Khan
 
 Feel free to contribute or raise issues!
-
----
-
-Let me know if you'd like a version with your name and GitHub link filled in, or if yo
