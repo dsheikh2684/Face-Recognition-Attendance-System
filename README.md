@@ -59,3 +59,59 @@ Save it in your project folder
 
 Reference the file path in AddDataToDatabase.py where it asks for the Firebase credential file
 
+✅ 4. Google Drive Setup
+Go to the Google Cloud Console.
+
+Create a new project (or select your existing one).
+
+Navigate to APIs & Services > Library.
+
+Enable the Google Drive API.
+
+Go to APIs & Services > Credentials:
+
+Click Create Credentials > OAuth client ID or Service account
+
+Download the JSON key file and save it in your project directory
+
+Use it to authenticate the Drive API in your code
+
+Create a folder in Google Drive to store student images.
+
+Share this folder (and any uploaded files) with your service account email.
+
+📂 Running the Project
+Step-by-step Flow
+Add Student Data
+Run AddDataToDatabase.py to input student details and upload their photos to Drive.
+
+Generate Encodings
+Run EncodeGenerator.py to process images and create facial encodings.
+
+Start Attendance System
+Run main.py to start the real-time face recognition and mark attendance.
+
+📌 Notes & Tips
+Ensure your system clock is accurate to avoid JWT signature errors with Google APIs.
+
+Ensure that the service account has proper permissions on both Firebase and Drive.
+
+Check that images are clear, frontal faces for better recognition accuracy.
+
+You can customize the system further to support logging, user feedback, or dashboards.
+
+✅ Future Improvements
+Add a web-based dashboard for attendance reports
+
+Integrate with SMS/Email APIs for notifications
+
+Improve UI using Tkinter or PyQt
+
+🧑‍💻 Author
+Developed by: Danish Khan
+
+Feel free to contribute or raise issues!
+
+---
+
+Let me know if you'd like a version with your name and GitHub link filled in, or if yo
